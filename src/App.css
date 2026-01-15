@@ -1,0 +1,19 @@
+footer{
+    background-color: #10161A;
+    color: #1870F2;
+    font-weight: 900;
+    text-align: center;
+    border-top: 2px solid #1391F2;
+}
+
+@media (width <= 853px) {
+    nav button{
+        display: none;
+    }
+}
+
+@media (width < 540px) {
+    footer{
+        display: none;
+    }
+}
