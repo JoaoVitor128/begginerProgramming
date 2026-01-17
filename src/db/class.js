@@ -158,6 +158,16 @@ const classDb = [
       title: "for",
       href: "https://www.youtube.com/embed/Vs1bCAc71Co?si=hYrz54OVQH-hnIGH",
       id: 14
+    },
+    {
+      title: "while e do while",
+      href: "https://www.youtube.com/embed/AUq4gYe6Jq4?si=H1ODpFw-gRCh9dsF",
+      id: 15
+    },
+    {
+      title: "try e catch",
+      href: "https://www.youtube.com/embed/cfuQ3TfFMk0?si=BMB9T9-TFt5lZBgp",
+      id: 16
     }
   ],
 ];
