@@ -176,11 +176,16 @@ const classDb = [
     },
   ],
   [
-    { modTitle: "Functions(avançado)" },
+    { modTitle: "Functions (Avançado)" },
     {
       title: "Declarações",
       href: "https://www.youtube.com/embed/RxpMGwvm4g0?si=xmb3BZ8CRxGcw0o3",
       id: 1,
+    },
+    {
+      title: "Return",
+      href: "https://www.youtube.com/embed/1Ihsqg-dZg8?si=SCAqHivLD-2xdWWl",
+      id: 2,
     },
   ],
 ];
