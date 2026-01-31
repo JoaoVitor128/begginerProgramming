@@ -152,28 +152,36 @@ const classDb = [
     {
       title: "Desestruturando Objetos",
       href: "https://www.youtube.com/embed/sDAg1z9ZFdU?si=SXG0FL6k6zbWMN_Q",
-      id: 13
+      id: 13,
     },
     {
       title: "for",
       href: "https://www.youtube.com/embed/Vs1bCAc71Co?si=hYrz54OVQH-hnIGH",
-      id: 14
+      id: 14,
     },
     {
       title: "while e do while",
       href: "https://www.youtube.com/embed/AUq4gYe6Jq4?si=H1ODpFw-gRCh9dsF",
-      id: 15
+      id: 15,
     },
     {
       title: "try e catch",
       href: "https://www.youtube.com/embed/cfuQ3TfFMk0?si=BMB9T9-TFt5lZBgp",
-      id: 16
+      id: 16,
     },
     {
       title: "SetTimeOut SetInterval",
       href: "https://www.youtube.com/embed/hvM15w0r5dM?si=jWQrlnJ9OmwQ5vGM",
-      id: 17
-    }
+      id: 17,
+    },
+  ],
+  [
+    { modTitle: "Functions(avançado)" },
+    {
+      title: "Declarações",
+      href: "https://www.youtube.com/embed/RxpMGwvm4g0?si=xmb3BZ8CRxGcw0o3",
+      id: 1,
+    },
   ],
 ];
 
