@@ -187,6 +187,11 @@ const classDb = [
       href: "https://www.youtube.com/embed/1Ihsqg-dZg8?si=SCAqHivLD-2xdWWl",
       id: 2,
     },
+    {
+      title: "Parâmetros",
+      href: "https://www.youtube.com/embed/CLdUkUdack8?si=x5iuNq2Uv_cNfiB_",
+      id: 3,
+    },
   ],
 ];
 
