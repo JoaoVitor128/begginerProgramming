@@ -192,6 +192,11 @@ const classDb = [
       href: "https://www.youtube.com/embed/CLdUkUdack8?si=x5iuNq2Uv_cNfiB_",
       id: 3,
     },
+    {
+      title: "Escopo Léxico",
+      href: "https://www.youtube.com/embed/pxLxYPyoXUY?si=g0zXgMKMBBbF6V45",
+      id: 4,
+    },
   ],
 ];
 
