@@ -14,11 +14,11 @@ const ClassList = () => {
             <div className="list">
                 {classDb.map((mod) => (
                     <div key={mod.id} className="classItem">
-                        <h1>{mod[0].modTitle}</h1>
+                        <h1>{mod[0]}</h1>
                         <div className="modClass">
                             {mod.slice(1).map((lesson, i) => (
-                                <Link className={`${lesson.href === "" ? "unavailable" : ""}`} key={lesson.id} to={`/class/${classDb.indexOf(mod)}/${lesson.id}`} rel="noopener noreferrer">
-                                    <span>Aula {lesson.id}</span>
+                                <Link className={`${lesson.href === "" ? "unavailable" : ""}`} key={i} to={`/class/${classDb.indexOf(mod)}/${lesson.id}`} rel="noopener noreferrer">
+                                    <span>Aula {i + 1}</span>
                                     {lesson.title}
                                 </Link>
                             ))}
