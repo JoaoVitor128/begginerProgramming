@@ -196,6 +196,10 @@ const classDb = [
       title: "Escopo Léxico",
       href: "https://www.youtube.com/embed/pxLxYPyoXUY?si=g0zXgMKMBBbF6V45",
       id: 4,
+    },{
+      title: "Closures",
+      href: "https://www.youtube.com/embed/a34nvqcSxKw?si=LV3yoa4Y99Vu7MKV",
+      id: 5,
     },
   ],
 ];
