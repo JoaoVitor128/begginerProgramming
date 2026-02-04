@@ -164,6 +164,14 @@ const classDb = [
       title: "Closures",
       href: "https://www.youtube.com/embed/a34nvqcSxKw?si=LV3yoa4Y99Vu7MKV",
     },
+    {
+      title: "Callbacks IIFE",
+      href: "https://www.youtube.com/embed/d-uUq0SiwdQ?si=dhUBpjSX0Yu-TxbT",
+    },
+    {
+      title: "Factory Functions",
+      href: "https://www.youtube.com/embed/4VlVygHQsqY?si=6AOZv8RT_7AjOGtr",
+    },
   ],
 ];
 
