@@ -8,6 +8,8 @@
     flex-direction: row;
     padding-top: 139px;
     padding-bottom: 20px;
+    justify-content: space-around;
+    
 }
     
 .classPage .video{
@@ -18,7 +20,11 @@
 }
 
 .info{
-    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     color: var(--primary-color);
     text-align: center;
 }
@@ -32,7 +38,7 @@
 .info h2{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin: 15px 0;
     color: var(--second-color);
 }
 
