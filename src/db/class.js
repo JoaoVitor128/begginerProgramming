@@ -172,7 +172,18 @@ const classDb = [
       title: "Factory Functions",
       href: "https://www.youtube.com/embed/4VlVygHQsqY?si=6AOZv8RT_7AjOGtr",
     },
+    {
+      title: "Funções Contrutoras",
+      href: "https://www.youtube.com/embed/STWpLZ75Mjw?si=EZ47wFaNSZUi4Rz7",
+    },
   ],
+  [
+    "Array (Avançado)",
+    {
+      title: "Splice",
+      href: "https://www.youtube.com/embed/5511Ompg03A?si=7ewXw4D6nuXCm8BH",
+    },
+  ]
 ];
 
 export default classDb;
