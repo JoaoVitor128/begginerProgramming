@@ -1,11 +1,10 @@
-import React from 'react'
 
+import { useParams } from 'react-router-dom'
 import classDb from '../db/class'
 import './ClassPage.css'
-import { useParams } from 'react-router-dom'
 
 const ClassPage = () => {
-  const { mod, id } = useParams()
+  const {mod, id} = useParams()
 
   return (
     <div className='classPage'>
