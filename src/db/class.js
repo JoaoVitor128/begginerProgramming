@@ -172,6 +172,7 @@ const classDb = [
       title: "Factory Functions",
       href: "https://www.youtube.com/embed/4VlVygHQsqY?si=6AOZv8RT_7AjOGtr",
     },
+    
     {
       title: "Funções Contrutoras",
       href: "https://www.youtube.com/embed/STWpLZ75Mjw?si=EZ47wFaNSZUi4Rz7",
