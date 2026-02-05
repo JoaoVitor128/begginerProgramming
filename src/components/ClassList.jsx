@@ -17,7 +17,7 @@ const ClassList = () => {
                         <h1>{mod[0]}</h1>
                         <div className="modClass">
                             {mod.slice(1).map((lesson, i) => (
-                                <Link className={`${lesson.href === "" ? "unavailable" : ""}`} key={i} to={`/class/${classDb.indexOf(mod)}/${lesson.id}`} rel="noopener noreferrer">
+                                <Link className={`${lesson.href === "" ? "unavailable" : ""}`} key={i} to={`/class/${classDb.indexOf(mod)}/${i}`} rel="noopener noreferrer">
                                     <span>Aula {i + 1}</span>
                                     {lesson.title}
                                 </Link>
