@@ -177,15 +177,15 @@ const classDb = [
       href: "https://www.youtube.com/embed/STWpLZ75Mjw?si=EZ47wFaNSZUi4Rz7",
     },
     {
-      title: "Calculadora(1)",
+      title: "Calculadora (1)",
       href: "https://www.youtube.com/embed/YfR2Lbf0OYM?si=R_uB1QRBXpJTnDWj",
     },
     {
-      title: "Calculadora(2)",
+      title: "Calculadora (2)",
       href: "https://www.youtube.com/embed/etgIOyxW4z4?si=94Skg5B51EJsjQdN",
     },
     {
-      title: "Calculadora(3)",
+      title: "Calculadora (3)",
       href: "https://www.youtube.com/embed/23hJbwEoGiU?si=CkqmFb1xJK2-1iQQ",
     },
   ],
