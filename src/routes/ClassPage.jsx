@@ -1,20 +1,21 @@
 
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate} from 'react-router-dom'
 import classDb from '../db/class'
 import './ClassPage.css'
 
 const ClassPage = () => {
   const { mod, id } = useParams()
+  const navigate = useNavigate()
 
   const handleClass = (type) => {
     switch (type) {
       case "PREV":
         if (id == 1) {
           if (mod > 0) {
-            window.open(`/class/${parseInt(mod) - 1}/${classDb[parseInt(mod) - 1].length - 1}`)
+            navigate(`/class/${parseInt(mod) - 1}/${classDb[parseInt(mod) - 1].length - 1}`)
           }
         } else {
-          window.open(`/class/${mod}/${parseInt(id) - 1}`)
+          navigate(`/class/${mod}/${parseInt(id) - 1}`)
         }
     break
        
@@ -22,10 +23,10 @@ const ClassPage = () => {
       case "NEXT":
         if(id == classDb[mod].length - 1){
           if(mod != classDb.length - 1){
-            window.open(`/class/${parseInt(mod) + 1}/1`, "_self")
+            navigate(`/class/${parseInt(mod) + 1}/1`, "_self")
           }
         }else{
-          window.open(`/class/${mod}/${parseInt(id) + 1}`)
+          navigate(`/class/${mod}/${parseInt(id) + 1}`)
         }
       break
         
