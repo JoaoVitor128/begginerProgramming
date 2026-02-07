@@ -71,6 +71,7 @@ const classDb = [
       href: "https://www.youtube.com/embed/rPyvGVVQJzw?si=0A6VOXPNNnN3FgXx",
     },
   ],
+  //Módulo 03
   [
     "Lógica de Programação",
     {
@@ -142,6 +143,7 @@ const classDb = [
       href: "https://www.youtube.com/embed/hvM15w0r5dM?si=jWQrlnJ9OmwQ5vGM",
     },
   ],
+  //Módulo 04
   [
     "Functions (Avançado)",
     {
@@ -189,6 +191,7 @@ const classDb = [
       href: "https://www.youtube.com/embed/23hJbwEoGiU?si=CkqmFb1xJK2-1iQQ",
     },
   ],
+  //Módulo 05
   [
     "Array (Avançado)",
     {
