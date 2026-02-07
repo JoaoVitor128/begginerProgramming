@@ -11,10 +11,10 @@ const ClassPage = () => {
       case "PREV":
         if (id == 1) {
           if (mod > 0) {
-            window.location.href = `/class/${parseInt(mod) - 1}/${classDb[parseInt(mod) - 1].length - 1}`
+            window.open(`/class/${parseInt(mod) - 1}/${classDb[parseInt(mod) - 1].length - 1}`)
           }
         } else {
-          window.location.href = `/class/${mod}/${parseInt(id) - 1}`
+          window.open(`/class/${mod}/${parseInt(id) - 1}`)
         }
     break
        
@@ -22,10 +22,10 @@ const ClassPage = () => {
       case "NEXT":
         if(id == classDb[mod].length - 1){
           if(mod != classDb.length - 1){
-            window.location.href = `/class/${parseInt(mod) + 1}/1`
+            window.open(`/class/${parseInt(mod) + 1}/1`, "_self")
           }
         }else{
-          window.location.href = `/class/${mod}/${parseInt(id) + 1}`
+          window.open(`/class/${mod}/${parseInt(id) + 1}`)
         }
       break
         
