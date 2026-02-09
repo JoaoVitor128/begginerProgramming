@@ -198,6 +198,10 @@ const classDb = [
       title: "Splice",
       href: "https://www.youtube.com/embed/5511Ompg03A?si=7ewXw4D6nuXCm8BH",
     },
+    {
+      title: "Filter",
+      href: "https://www.youtube.com/embed/12odQX7bVe8?si=vP1BaPJI_a8Fj3nV",
+    },
   ]
 ];
 
