@@ -7,11 +7,11 @@ import Nav from './components/Nav.jsx'
 function App() {
 
   return (
-    <>
+    <div className='App'>
     <Nav/>
     <Outlet/>
     <footer>VAGAS ABERTAS PARA A GUILDA • CURSO 100% GRATUITO • APRENDA JAVASCRIPT • VAGAS ABERTAS</footer>
-    </>
+    </div>
   )
 }
 

@@ -7,6 +7,7 @@ import Home from "./routes/Home.jsx"
 import ErrorPage from './routes/ErrorPage.jsx'
 import ClassPage from './routes/ClassPage.jsx'
 import About from './routes/About.jsx'
+import ClassList from './routes/ClassList.jsx'
 
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 
@@ -18,6 +19,10 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
       children:[
         {path: "/",
         element: <Home/>
+        },
+        {
+          path:"/classes",
+          element: <ClassList/>
         },
         {
           path: "/class/:mod/:id",

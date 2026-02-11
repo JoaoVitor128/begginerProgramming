@@ -4,10 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
   width: 100%;
   color: var(--primary-color);
   padding-top: 139px;
+  background: linear-gradient(0deg, var(--secondary-background) 0%, var(--background) 100%);
 }
 
 .about .text {

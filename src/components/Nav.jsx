@@ -11,6 +11,7 @@ const Nav = () => {
             } alt="" />
             <ul className="links">
                 <li><Link to="/">Início</Link></li>
+                <li><Link to="/classes">Aulas</Link></li>
                 <li><Link to="/about">Sobre</Link></li>
             </ul>
         </nav>

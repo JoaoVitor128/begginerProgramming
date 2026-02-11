@@ -1,7 +1,7 @@
 const classDb = [
   //Modulo 01
   [
-    "Introdução a Programação", 
+    "Introdução", 
     {
       title: "Programação",
       href: "https://www.youtube.com/embed/DMYxuf7fsLw?si=k76TyIN3njOE40Zb",
@@ -13,7 +13,7 @@ const classDb = [
   ],
   //Modulo 02
   [
-    "Fundamentos do Java Script",
+    "Fundamentos",
     {
       title: "Primeiro Hello World",
       href: "https://www.youtube.com/embed/ifiXifl8Qy0?si=EnmkKgVspWsmytTO",
@@ -73,7 +73,7 @@ const classDb = [
   ],
   //Módulo 03
   [
-    "Lógica de Programação",
+    "Lógica",
     {
       title: "O que é lógica de programação?",
       href: "https://www.youtube.com/embed/3oBAW-JW8mI?si=ylsglNOLHvpG4MTm",
@@ -145,7 +145,7 @@ const classDb = [
   ],
   //Módulo 04
   [
-    "Functions (Avançado)",
+    "Functions",
     {
       title: "Declarações",
       href: "https://www.youtube.com/embed/RxpMGwvm4g0?si=xmb3BZ8CRxGcw0o3",
@@ -193,7 +193,7 @@ const classDb = [
   ],
   //Módulo 05
   [
-    "Array (Avançado)",
+    "Array",
     {
       title: "Splice",
       href: "https://www.youtube.com/embed/5511Ompg03A?si=7ewXw4D6nuXCm8BH",
