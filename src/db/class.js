@@ -202,6 +202,10 @@ const classDb = [
       title: "Filter",
       href: "https://www.youtube.com/embed/12odQX7bVe8?si=vP1BaPJI_a8Fj3nV",
     },
+    {
+      title: "Map",
+      href: "https://www.youtube.com/embed/VqLpiHsPCJo?si=08N7H8cR8ZCMgeTg"
+    }
   ]
 ];
 
