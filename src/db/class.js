@@ -205,6 +205,10 @@ const classDb = [
     {
       title: "Map",
       href: "https://www.youtube.com/embed/VqLpiHsPCJo?si=08N7H8cR8ZCMgeTg"
+    },
+    {
+      title: "Reduce",
+      href: "https://www.youtube.com/embed/q4Dca1Q9aAk?si=WyQP4sr79AvbqDX4"
     }
   ]
 ];
