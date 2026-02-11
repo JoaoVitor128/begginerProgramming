@@ -5,16 +5,16 @@
   margin: 50px 0;
 }
 
-.modClass {
+.modClass, .modSelection {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 70px;
-  margin: 50px 0;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
 .modClass a,
-.driveLink {
+.driveLink, .modSelection button {
   display: flex;
   padding: 10px;
   align-items: center;
@@ -25,6 +25,8 @@
   font-size: 15px;
   font-weight: 900;
   text-transform: uppercase;
+  cursor: pointer;
+  height: auto;
 }
 
 .modClass a:not(.unavailable),
@@ -40,6 +42,7 @@
 .driveLink {
   margin: 25px auto;
 }
+
 
 @media (max-width: 610px) {
   .modClass {
