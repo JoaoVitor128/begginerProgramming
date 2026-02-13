@@ -209,6 +209,17 @@ const classDb = [
     {
       title: "Reduce",
       href: "https://www.youtube.com/embed/q4Dca1Q9aAk?si=WyQP4sr79AvbqDX4"
+    },
+    {
+      title: "Atividade",
+      href: "https://www.youtube.com/embed/Jr8XaqrkCIs?si=I1cMZARHLovESp5R"
+    }
+  ],
+  [
+    "Objetos e Prototypes",
+    {
+      title: "Define Propiety",
+      href: "https://www.youtube.com/embed/zR3i1SRAdCU?si=Xo-Apw5xCId-GlNe"
     }
   ]
 ];

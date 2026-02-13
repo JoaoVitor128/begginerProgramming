@@ -8,14 +8,13 @@ import { animateScroll as scroll } from 'react-scroll';
 const ClassList = () => {
     const [selectedMod, setSelectedMod] = useState(null)
 
-    console.log(classDb[selectedMod]);
 
-    const handleMod = (mod) => {
-        scroll.scrollMore(800, {
-            duration: 200,
+    const handleMod = (index) => {
+        scroll.scrollMore(500, {
+            duration: 500,
             smooth: true,
         });
-        setSelectedMod(classDb.indexOf(mod))
+        setSelectedMod(index)
     }
 
     return (
@@ -23,10 +22,10 @@ const ClassList = () => {
             <h1>Módulos</h1>
 
             <div className="modSelection">
-                {classDb.map((mod) => (
-                    <div className="mod" onClick={() => handleMod(mod)}>
-                        <p >{mod[0]}</p>
-                        <span>Módulo {classDb.indexOf(mod)}</span>
+                {classDb.map((mod, index) => (
+                    <div className="mod" onClick={() => handleMod(index)} key={index}>
+                        <p>{mod[0]}</p>
+                        <span>Módulo {index}</span>
                     </div>
                 ))}
             </div>
@@ -36,7 +35,7 @@ const ClassList = () => {
             <h3><Link to={"https://drive.google.com/drive/folders/1rHe7dAMbn3WcSJBfowYSrsr872p0pZlD"} className='driveLink'> Acesse as aulas no Google Drive</Link></h3>
 
 
-            {selectedMod && (
+            {selectedMod !== null && (
                 <div id="list">
                     <div key={selectedMod} className="classItem">
                         <h1>{classDb[selectedMod][0]}</h1>
