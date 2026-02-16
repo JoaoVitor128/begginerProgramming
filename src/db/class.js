@@ -220,6 +220,10 @@ const classDb = [
     {
       title: "Define Propiety",
       href: "https://www.youtube.com/embed/zR3i1SRAdCU?si=Xo-Apw5xCId-GlNe"
+    },
+    {
+      title: "Getter & Setter",
+      href: "https://www.youtube.com/embed/0g_QGn59-m4?si=2bGwK49Ljv8FZ1k_"
     }
   ]
 ];
