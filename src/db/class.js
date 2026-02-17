@@ -224,6 +224,10 @@ const classDb = [
     {
       title: "Getter & Setter",
       href: "https://www.youtube.com/embed/0g_QGn59-m4?si=2bGwK49Ljv8FZ1k_"
+    },
+    {
+      title: "Prototype",
+      href: "https://www.youtube.com/embed/3YwG71Lji3o?si=hBXio2y59NP3zTHu"
     }
   ]
 ];
