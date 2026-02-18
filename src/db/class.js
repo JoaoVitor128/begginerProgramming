@@ -228,6 +228,10 @@ const classDb = [
     {
       title: "Prototype",
       href: "https://www.youtube.com/embed/3YwG71Lji3o?si=hBXio2y59NP3zTHu"
+    },
+    {
+      title: "Manipulando Prototypes",
+      href: "https://www.youtube.com/embed/x-IfzrlRnek?si=7trf_X_J-rmcctB-"
     }
   ]
 ];
