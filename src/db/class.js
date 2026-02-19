@@ -232,6 +232,10 @@ const classDb = [
     {
       title: "Manipulando Prototypes",
       href: "https://www.youtube.com/embed/x-IfzrlRnek?si=7trf_X_J-rmcctB-"
+    },
+    {
+      title: "Herança",
+      href: "https://www.youtube.com/embed/WfGC15u9PnA?si=8PFnDwpKv4mXWRkD"
     }
   ]
 ];
